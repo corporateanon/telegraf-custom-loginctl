@@ -11,7 +11,7 @@ type Loginctl struct {
 }
 
 func (_ *Loginctl) Description() string {
-	return "Read metrics about linux user sessions"
+	return "Read desktop user activity"
 }
 
 func (_ *Loginctl) SampleConfig() string { return "" }
